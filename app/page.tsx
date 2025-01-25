@@ -12,20 +12,20 @@ export default async function Home(){
     <>
     <section className={styles.top}>
       <div>
-       <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
+       <h1 className={styles.title}>タイトル考え中</h1>
        <p className={styles.description}>
-      私たちは市場をリードしているグローバルカンパニーです。</p>
+      背景夜空入れたい</p>
       </div>
     <Image
       className={styles.bgimg}
       src="/img-mv.jpg"
       alt=""
       width={4000}
-      height={1200}
+      height={2000}
       />
     </section>
     <section className={styles.news}>
-        <h2 className={styles.newsTitle}>News</h2>
+        <h2 className={styles.newsTitle}>一覧</h2>
         <NewsList news={data.contents} />
         <div className={styles.newsLink}>
           <ButtonLink href="/news">もっと見る</ButtonLink>
@@ -34,3 +34,4 @@ export default async function Home(){
     </>
   );
 }
+
