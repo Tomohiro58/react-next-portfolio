@@ -18,7 +18,7 @@ export default async function Home(){
       </div>
     <Image
       className={styles.bgimg}
-      src="/img-mv.jpg"
+      src="/photo0000-1252.webp"
       alt=""
       width={4000}
       height={2000}
