@@ -18,7 +18,7 @@ export default async function Home(){
       </div>
     <Image
       className={styles.bgimg}
-      src="/Image.jpeg"
+      src="/写真.jpg"
       alt=""
       width={4000}
       height={2000}
