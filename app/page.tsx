@@ -26,7 +26,7 @@ export default async function Home(){
     </section>
     <section className={styles.news}>
         <h2 className={styles.newsTitle}>一覧</h2>
-        <NewsList news={data.contents} />
+       
         <div className={styles.newsLink}>
         </div>
       </section>
