@@ -12,13 +12,9 @@ export default async function Home(){
     <>
     <section className={styles.top}>
       <div>
-       <h1 className={styles.title}>トモの夕焼け</h1>
+       <h1 className={styles.title}>Welcome to the TOMO Home Page</h1>
        <p className={styles.description}>
-      こんにちは</p>
-      </div>
-      <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the home page of the website.</p>
+       This is the home page of the website.</p>
       </div>
     <Image
       className={styles.bgimg}
