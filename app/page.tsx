@@ -25,7 +25,10 @@ export default async function Home(){
       />
     </section>
     <section className={styles.news}>
-        <h2 className={styles.newsTitle}>一覧</h2>
+        <h2 className={styles.newsTitle}>取った資格一覧</h2>
+        <p>
+          AI900, MOS Excel, MOS PowerPoint
+        </p>
        
         <div className={styles.newsLink}>
         </div>
