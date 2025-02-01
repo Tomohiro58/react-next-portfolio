@@ -15,9 +15,7 @@ export default function Menu() {
       <div>
         <nav className={cx(styles.nav, isOpen && styles.open)}>
           <ul className={styles.items}>
-            <li>
-              <Link href="/members">自分について</Link>
-            </li>
+
             <li>
               <Link href="/members">自分について</Link>
             </li>
