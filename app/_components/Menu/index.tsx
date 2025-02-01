@@ -19,9 +19,6 @@ export default function Menu() {
               <Link href="/members">自分について</Link>
             </li>
             <li>
-              <Link href="/members">自分について</Link>
-            </li>
-            <li>
               <Link href="/contact">お問い合わせ</Link>
             </li>
           </ul>
