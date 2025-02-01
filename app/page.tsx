@@ -12,7 +12,7 @@ export default async function Home(){
     <>
     <section className={styles.top}>
       <div>
-       <h1 className={styles.title}>タイトル考え中</h1>
+       <h1 className={styles.title}>トモの夜景</h1>
        <p className={styles.description}>
       背景夜空入れたい</p>
       </div>
