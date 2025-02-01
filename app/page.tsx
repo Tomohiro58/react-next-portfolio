@@ -14,7 +14,7 @@ export default async function Home(){
       <div>
        <h1 className={styles.title}>トモの夜景</h1>
        <p className={styles.description}>
-      背景夜空入れたい</p>
+      こんにちは</p>
       </div>
     <Image
       className={styles.bgimg}
@@ -28,7 +28,6 @@ export default async function Home(){
         <h2 className={styles.newsTitle}>一覧</h2>
         <NewsList news={data.contents} />
         <div className={styles.newsLink}>
-          <ButtonLink href="/news">もっと見る</ButtonLink>
         </div>
       </section>
     </>
