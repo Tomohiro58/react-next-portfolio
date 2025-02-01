@@ -6,6 +6,10 @@ export default function Contact() {
             <dl>
                 <dt className={styles.title}>お問合せ</dt>
                 <dd className={styles.text}>
+                    お問合せいただきありがとうございます。  
+                    <br />
+                    ご質問やご不明点がございましたら、下記のフォームよりお気軽にお問合せください。
+                    <br />
                     下記のフォームからお問合せいただけます。
                 </dd>
             </dl>
