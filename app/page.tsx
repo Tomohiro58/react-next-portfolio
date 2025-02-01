@@ -12,13 +12,13 @@ export default async function Home(){
     <>
     <section className={styles.top}>
       <div>
-       <h1 className={styles.title}>トモの夜景</h1>
+       <h1 className={styles.title}>トモの夕焼け</h1>
        <p className={styles.description}>
       こんにちは</p>
       </div>
     <Image
       className={styles.bgimg}
-      src="/photo0000-1252.webp"
+      src="/写真.jpg"
       alt=""
       width={4000}
       height={2000}
