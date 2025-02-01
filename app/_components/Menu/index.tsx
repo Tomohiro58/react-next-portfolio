@@ -19,7 +19,7 @@ export default function Menu() {
               <Link href="/news">ニュース</Link>
             </li>
             <li>
-              <Link href="/aboutme">自分について</Link>
+              <Link href="/members">自分について</Link>
             </li>
             <li>
               <Link href="/contact">お問い合わせ</Link>
