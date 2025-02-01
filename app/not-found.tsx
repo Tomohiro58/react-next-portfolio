@@ -1,5 +1,4 @@
 import styles from "./not-found.module.css";
-import Image from "next/image";
 export default function Contact() {
     return (
         
@@ -14,13 +13,7 @@ export default function Contact() {
                     下記のフォームからお問合せいただけます。
                 </dd>
             </dl>
-            <Image
-                  className={styles.bgimg}
-                  src="/写真.jpg"
-                  alt=""
-                  width={4000}
-                  height={2000}
-                  />
+           
             <form className={styles.form}>
                 <div className={styles.formGroup}>
                     <label htmlFor="name">お名前</label>
