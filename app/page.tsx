@@ -16,6 +16,10 @@ export default async function Home(){
        <p className={styles.description}>
       こんにちは</p>
       </div>
+      <div>
+      <h1>Welcome to the Home Page</h1>
+      <p>This is the home page of the website.</p>
+      </div>
     <Image
       className={styles.bgimg}
       src="/写真.jpg"
