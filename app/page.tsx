@@ -24,12 +24,7 @@ export default async function Home(){
       height={2000}
       />
     </section>
-      <section className={styles.news}>
-        <h2 className={styles.newsTitle}></h2>
-
-        <div className={styles.newsLink}>
-        </div>
-      </section>
+      
     </>
   );
 }
