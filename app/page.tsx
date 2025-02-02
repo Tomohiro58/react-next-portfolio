@@ -21,7 +21,7 @@ export default async function Home(){
       src="/写真.jpg"
       alt=""
       width={4000}
-      height={2000}
+      height={1000}
       />
     </section>
       <section className={styles.news}>
