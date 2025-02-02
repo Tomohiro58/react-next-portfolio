@@ -5,12 +5,25 @@ export default function Contact() {
     return (
         
         <div className={styles.container}>
-                        <li>
-                          <Link href="/members">自分について</Link>
-                        </li>
-                        <li>
-                          <Link href="/contact">お問い合わせ</Link>
-                        </li>
+        <nav className={cx(styles.nav, isOpen && styles.open)}>
+                                 <ul className={styles.items}>
+                                   <li>
+                                     <Link href="/members">自分について</Link>
+                                   </li>
+                                   <li>
+                                     <Link href="/contact">お問い合わせ</Link>
+                                   </li>
+                                 </ul>
+                                 <button className={cx(styles.button, styles.close)} onClick={close}>
+                                   <Image
+                                     src="/close.svg"
+                                     alt="`閉じる"
+                                     width={24}
+                                     height={24}
+                                     priority
+                                   />
+                                </button>
+                               </nav>
             <dl>
                 <dt className={styles.title}>お問合せ</dt>
                 <dd className={styles.text}>
