@@ -1,9 +1,16 @@
 import styles from "./not-found.module.css";
+import Link from 'next/link';
 
 export default function Contact() {
     return (
         
         <div className={styles.container}>
+                        <li>
+                          <Link href="/members">自分について</Link>
+                        </li>
+                        <li>
+                          <Link href="/contact">お問い合わせ</Link>
+                        </li>
             <dl>
                 <dt className={styles.title}>お問合せ</dt>
                 <dd className={styles.text}>
