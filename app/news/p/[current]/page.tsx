@@ -23,10 +23,5 @@ export default async function Page( {params} : Props) {
     offset: NEWS_LIST_LIMIT * (current - 1),
   });
 
- return (
-          <>
-           <NewsList news={news} />
-           <Pagination totalCount={totalCount} current={current} />
-          </>
- )
+ return <NewsList news={news}/>;
 }
